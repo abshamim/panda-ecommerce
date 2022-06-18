@@ -5,8 +5,271 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Panda Ecommerce</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <h1>Hey Developer!</h1>
+    <!-- header section -->
+    <header id="header-navbar">
+        <nav class="navbar navbar-expand-lg mt-4 mb-4">
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                    <img src="images/logo.png" alt="">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                <form class="d-flex w-50" role="search">
+                    <input class="form-control search-style-own" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn search-btn-own" type="submit"><i class="fa fa-search" aria-hidden="true"></i></button>
+                </form>
+                <div class="collapse justify-content-end navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Product</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">About Us</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Contact Us</a>
+                  </li>
+                </ul>
+                </div>
+            </div>
+          </nav>
+    </header>
+    <!-- top banner -->
+    <section id="top-banner">
+        <div class="container">
+            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" class="slid-button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" class="slid-button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner banner-one pt-5 pb-5">
+                  <div class="carousel-item active">
+                    <div class="row align-items-center">
+                        <div class="col-7">
+                            <h1 class="display-5">Heading Here</h1>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid ducimus repellendus vero praesentium, earum sint pariatur blanditiis expedita quibusdam non.</p>
+                            <h2 class="h2 text-danger">$5000</h2>
+                            <button class="btn btn-danger h2 mt-2 text-uppercase">Buy Now</button>
+                        </div>
+                        <div class="col-5">
+                            <img class="img-fluid" src="images/banner-images/tv.png" alt="">
+                        </div>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <div class="row align-items-center">
+                        <div class="col-7">
+                            <h1>Heading Here</h1>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid ducimus repellendus vero praesentium, earum sint pariatur blanditiis expedita quibusdam non.</p>
+                            <p>$3000</p>
+                            <button>Buy Now</button>
+                        </div>
+                        <div class="col-5">
+                            <img class="img-fluid" src="images/banner-images/headphone.png" alt="">
+                        </div>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <div class="row align-items-center">
+                        <div class="col-7">
+                            <h1>Heading Here</h1>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid ducimus repellendus vero praesentium, earum sint pariatur blanditiis expedita quibusdam non.</p>
+                            <p>$4000</p>
+                            <button>Buy Now</button>
+                        </div>
+                        <div class="col-5">
+                            <img class="img-fluid" src="images/banner-images/xbox.png" alt="">
+                        </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+        </div>
+    </section>
+    <!-- category section -->
+    <section id="category-section" class="mt-5 mb-5">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-6">
+                    <h1 class="h4">Categories</h1>
+                </div>
+                <div class="col-6 d-flex justify-content-end">
+                    <a href="#" class="btn see-all-btn text-danger">See All</a>
+                </div>
+            </div>
+            <div class="row mt-4">
+                <div class="col-4">
+                    <a href="#">
+                        <div class="flex-con watch-col1 d-flex justify-content-between align-items-center">
+                            <div class="flex-item-own">
+                                <h1 class="h1 text-white">Watch</h1>
+                            </div>
+                            <div class="flex-item-own">
+                                <img class="img-fluid" src="images/categories/watch.png" alt="">
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-4">
+                    <a href="#">
+                        <div class="flex-con watch-col2 d-flex justify-content-between align-items-center">
+                            <div class="flex-item-own">
+                                <h1 class="h1 text-white">Bag</h1>
+                            </div>
+                            <div class="flex-item-own">
+                                <img class="img-fluid" src="images/categories/bag.png" alt="">
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-4">
+                    <a href="#">
+                        <div class="flex-con watch-col3 d-flex justify-content-between align-items-center">
+                            <div class="flex-item-own">
+                                <h1 class="h1 text-white">Shoes</h1>
+                            </div>
+                            <div class="flex-item-own">
+                                <img class="img-fluid" src="images/categories/shoes.png" alt="">
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- shoes section -->
+    <section id="shoes-category">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-6">
+                    <h1 class="h4">Shoes</h1>
+                </div>
+                <div class="col-6 d-flex justify-content-end">
+                    <a href="#" class="btn see-all-btn text-danger">See All</a>
+                </div>
+            </div>
+            <!-- shoes card -->
+            <div class="row row-cols-1 row-cols-md-3 g-4 mt-4">
+                <div class="col">
+                  <div class="card h-100">
+                    <img class="mx-auto d-block w-75" src="/images/shoes/shoe-1.png" class="card-img-top" alt="...">
+                    <div class="card-body text-center">
+                      <h5 class="card-title">Card title</h5>
+                      <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+                      <h4 class="text-danger">$200</h4>
+                      <button class="btn btn-dark mt-2 oder-btn-own ">Order Now</button>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card h-100">
+                    <img class="mx-auto d-block w-75" src="images/shoes/shoe-2.png" class="card-img-top" alt="...">
+                    <div class="card-body text-center">
+                      <h5 class="card-title">Card title</h5>
+                      <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+                      <h4 class="text-danger">$200</h4>
+                      <button class="btn btn-dark mt-2 oder-btn-own ">Order Now</button>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card h-100">
+                    <img class="mx-auto d-block w-75" src="images/shoes/shoe-3.png" class="card-img-top" alt="...">
+                    <div class="card-body text-center">
+                      <h5 class="card-title">Card title</h5>
+                      <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+                      <h4 class="text-danger">$200</h4>
+                      <button class="btn btn-dark mt-2 oder-btn-own ">Order Now</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+        </div>
+    </section>
+    <!-- backpack section -->
+    <section id="backpack-category">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-6">
+                    <h1 class="h4">backpack</h1>
+                </div>
+                <div class="col-6 d-flex justify-content-end">
+                    <a href="#" class="btn see-all-btn text-danger">See All</a>
+                </div>
+            </div>
+            <!-- backpack card -->
+            <div class="row row-cols-1 row-cols-md-3 g-4 mt-4">
+                <div class="col">
+                  <div class="card h-100">
+                    <img class="mx-auto d-block w-75 mb-4" src="/images/bags/bag-1.png" class="card-img-top" alt="...">
+                    <div class="card-body text-center">
+                      <h5 class="card-title">Card title</h5>
+                      <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+                      <h4 class="text-danger">$200</h4>
+                      <button class="btn btn-dark mt-2 oder-btn-own ">Order Now</button>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card h-100">
+                    <img class="mx-auto d-block w-75 mb-4" src="images/bags/bag-2.png" class="card-img-top" alt="...">
+                    <div class="card-body text-center">
+                      <h5 class="card-title">Card title</h5>
+                      <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+                      <h4 class="text-danger">$200</h4>
+                      <button class="btn btn-dark mt-2 oder-btn-own ">Order Now</button>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card h-100">
+                    <img class="mx-auto d-block w-75 mb-4" src="images/bags/bag-3.png" class="card-img-top" alt="...">
+                    <div class="card-body text-center">
+                      <h5 class="card-title">Card title</h5>
+                      <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+                      <h4 class="text-danger">$200</h4>
+                      <button class="btn btn-dark mt-2 oder-btn-own ">Order Now</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+        </div>
+    </section>
+    <!-- subscriber section -->
+    <section id="contact-section">
+        <div class="container subscriber-con text-center mt-5">
+            <h1 class="display-5 text-uppercase">Stay Get in Touch</h1>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+            <fieldset>
+                <form action="">
+                    <input class="email-own" type="email" placeholder="Enter your Email" required>
+                    <button class="btn-submit-own btn" type="submit">Sumbit</button>
+                </form>
+            </fieldset>
+        </div>
+    </section>
+    <!-- footer -->
+    <footer class="footer-section">
+        <div class="container">
+            <p class="text-center">&copy; All right reserved by Sm-Webkiter</p>
+        </div>
+    </footer>
+
+    <!-- boostrap & js file -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
 </body>
 </html>

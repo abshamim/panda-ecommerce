@@ -1,0 +1,160 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+.navbar-brand img{
+    width: 80%;
+}
+.search-style-own{
+    border-radius: 30px 0px 0px 30px;
+    border: none;
+    background-color: #F8F8F8;
+}
+.search-btn-own{
+    border-radius: 0px 30px 30px 0px;
+    border: none;
+    background-color: #F8F8F8;
+}
+.form-control{
+    font-size: 14px;
+    font-weight: 300;
+    color: #BABABA;
+}
+.search-btn-own .fa-search{
+    font-size: 16px;
+    color: #BABABA;
+}
+.banner-one{
+    background-color: #FEEAE9;
+}
+.carousel-item{
+    padding: 30px 50px;
+}
+.carousel-item p{
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 28px;
+    text-align: justify;
+    width: 70%;
+}
+.carousel-item button{
+    padding: 10px 30px;
+}
+.carousel-inner{
+    border-radius: 20px;
+}
+.carousel-indicators .active{
+    background-color: crimson;
+}
+.slid-button{
+    background-color:darkslategrey;
+}
+.see-all-btn{
+    font-size: 20px;
+    border: none;
+}
+.see-all-btn:hover{
+    border: none;
+}
+.watch-col1{
+    background-color: #ff6600;
+    background-image:
+      linear-gradient(
+        to right, 
+        #ff9900, #f0cd06
+      );
+  }
+  .watch-col2{
+    background-color: #ff0062;
+    background-image:
+      linear-gradient(
+        to right, 
+        #ff0062, #f00667
+      );
+  }
+  .watch-col3{
+    background-color: #1900ff;
+    background-image:
+      linear-gradient(
+        to right, 
+        #1900ff, #066bf0
+      );
+  }
+.flex-con{
+    padding: 20px 30px;
+    border-radius: 20px;
+}
+h1, a{
+    text-decoration: none !important;
+}
+#shoes-category{
+    background-color: #f7f7f7;
+    padding: 50px 0px;
+}
+#backpack-category{
+    padding-top: 0px;
+    padding-bottom: 100px;
+    background-color: #f7f7f7;
+}
+.card{
+    border-radius: 20px;
+    border: none;
+    padding: 50px 0px;
+}
+.card-title{
+    font-weight: 500;
+    font-size: 25px;
+}
+.card-text{
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 28px;
+    text-align: justify;
+    padding: 0px 30px;
+}
+.oder-btn-own{
+    padding: 10px 30px;
+    text-transform: uppercase;
+}
+#contact-section{
+    margin: 90px 0px;
+}
+.subscriber-con{
+    background-color: #FEEAE9;
+    padding: 100px 0;
+    border-radius: 20px;
+}
+.subscriber-con p{
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 38px;
+}
+.email-own{
+    height: 50px;
+    border: none;
+    border-radius: 5px 0px 0px 5px;
+    padding-left: 20px;
+    font-size: 18px;
+    font-weight: 300;
+}
+.subscriber-con input{
+    width: 50%;
+}
+.btn-submit-own{
+    height: 50px;
+    border: none;
+    border-radius: 0px 5px 5px 0px;
+    font-size: 20px;
+    text-transform: uppercase;
+    background-color: #ff0062;
+    color: white;
+    padding: 0px 30px;
+    margin-left: -5px;
+}
+.email-own:focus{
+    border: none;
+}
+.btn-submit-own:hover{
+    background-color: #ff0062;
+    color: white;
+}
